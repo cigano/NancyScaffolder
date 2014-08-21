@@ -1,0 +1,9 @@
+c:\users\leonel\documents\visual studio 2013\Projects\NancyScaffolder\NancyScaffolder\NancyScaffolderExtension\bin\Debug\NancyScaffolderExtension.vsix
+c:\users\leonel\documents\visual studio 2013\Projects\NancyScaffolder\NancyScaffolder\NancyScaffolderExtension\bin\Debug\extension.vsixmanifest
+c:\users\leonel\documents\visual studio 2013\Projects\NancyScaffolder\NancyScaffolder\NancyScaffolderExtension\bin\Debug\NancyScaffolder.dll
+c:\users\leonel\documents\visual studio 2013\Projects\NancyScaffolder\NancyScaffolder\NancyScaffolderExtension\bin\Debug\NancyScaffolder.pdb
+c:\users\leonel\documents\visual studio 2013\Projects\NancyScaffolder\NancyScaffolder\NancyScaffolderExtension\obj\Debug\NancyScaffolderExtension.csprojResolveAssemblyReference.cache
+c:\users\leonel\documents\visual studio 2013\Projects\NancyScaffolder\NancyScaffolder\NancyScaffolderExtension\obj\Debug\NancyScaffolderExtension.dll
+c:\users\leonel\documents\visual studio 2013\Projects\NancyScaffolder\NancyScaffolder\NancyScaffolderExtension\obj\Debug\NancyScaffolderExtension.pdb
+c:\users\leonel\documents\visual studio 2013\Projects\NancyScaffolder\NancyScaffolder\NancyScaffolderExtension\obj\Debug\extension.vsixmanifest
+C:\Users\Leonel\documents\visual studio 2013\Projects\NancyScaffolder\NancyScaffolder\NancyScaffolderExtension\bin\Debug\Templates\CustomCodeGenerator\ModuleTemplate.cs.t4

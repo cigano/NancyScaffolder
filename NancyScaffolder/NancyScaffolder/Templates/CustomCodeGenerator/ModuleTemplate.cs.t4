@@ -1,0 +1,21 @@
+﻿<#@ template language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="EnvDTE" #>
+<#@ parameter name="ModelType" type="EnvDTE.CodeType" #>
+<#@ assembly name="System.Data.Entity.Design" #>
+<#@ import namespace="System.Data.Entity.Design.PluralizationServices" #>
+<# var pluralizer = PluralizationService.CreateService(System.Globalization.CultureInfo.CurrentCulture); #>
+<# var modelNameInPlural = pluralizer.Pluralize(ModelType.Name); #>
+
+namespace <#= ModelType.Namespace.Parent #>
+{
+	using Nancy;
+
+    public class <#= ModelType.Name #>Module : NancyModule
+    {
+		public <#= ModelType.Name #>Module()
+		{
+			Get["/<#= modelNameInPlural #>"] = parameters => View["<#= modelNameInPlural #>/Index"];
+		}
+    }
+}

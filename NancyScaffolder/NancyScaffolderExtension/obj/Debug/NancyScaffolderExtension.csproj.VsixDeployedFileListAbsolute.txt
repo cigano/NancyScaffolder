@@ -1,0 +1,9 @@
+C:\Users\Leonel\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Author Name\NancyScaffolderExtension\1.0\\NancyScaffolder.dll
+C:\Users\Leonel\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Author Name\NancyScaffolderExtension\1.0\\extension.vsixmanifest
+C:\Users\Leonel\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Author Name\NancyScaffolderExtension\1.0\\Templates\CustomCodeGenerator\CustomTextTemplate.cs.t4
+C:\Users\Leonel\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Author Name\NancyScaffolderExtension\1.0\\NancyScaffolder.pdb
+C:\Users\Leonel\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Cigano Morrison Mendez\NancyScaffolderExtension\1.0\\NancyScaffolder.dll
+C:\Users\Leonel\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Cigano Morrison Mendez\NancyScaffolderExtension\1.0\\extension.vsixmanifest
+C:\Users\Leonel\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Cigano Morrison Mendez\NancyScaffolderExtension\1.0\\Templates\CustomCodeGenerator\ModuleTemplate.cs.t4
+C:\Users\Leonel\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Cigano Morrison Mendez\NancyScaffolderExtension\1.0\\NancyScaffolder.pdb
+C:\Users\Leonel\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Cigano Morrison Mendez\NancyScaffolderExtension\1.0\\Humanizer.dll
