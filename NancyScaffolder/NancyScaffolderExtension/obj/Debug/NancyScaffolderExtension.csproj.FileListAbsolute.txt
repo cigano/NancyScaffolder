@@ -7,3 +7,16 @@ c:\users\leonel\documents\visual studio 2013\Projects\NancyScaffolder\NancyScaff
 c:\users\leonel\documents\visual studio 2013\Projects\NancyScaffolder\NancyScaffolder\NancyScaffolderExtension\obj\Debug\NancyScaffolderExtension.pdb
 c:\users\leonel\documents\visual studio 2013\Projects\NancyScaffolder\NancyScaffolder\NancyScaffolderExtension\obj\Debug\extension.vsixmanifest
 C:\Users\Leonel\documents\visual studio 2013\Projects\NancyScaffolder\NancyScaffolder\NancyScaffolderExtension\bin\Debug\Templates\CustomCodeGenerator\ModuleTemplate.cs.t4
+C:\Users\Leonel\Documents\GitHub\NancyScaffolder\NancyScaffolder\NancyScaffolderExtension\bin\Debug\NancyScaffolderExtension.vsix
+C:\Users\Leonel\Documents\GitHub\NancyScaffolder\NancyScaffolder\NancyScaffolderExtension\bin\Debug\extension.vsixmanifest
+C:\Users\Leonel\Documents\GitHub\NancyScaffolder\NancyScaffolder\NancyScaffolderExtension\bin\Debug\NancyScaffolder.dll
+C:\Users\Leonel\Documents\GitHub\NancyScaffolder\NancyScaffolder\NancyScaffolderExtension\bin\Debug\NancyScaffolder.pdb
+C:\Users\Leonel\Documents\GitHub\NancyScaffolder\NancyScaffolder\NancyScaffolderExtension\obj\Debug\NancyScaffolderExtension.csprojResolveAssemblyReference.cache
+C:\Users\Leonel\Documents\GitHub\NancyScaffolder\NancyScaffolder\NancyScaffolderExtension\obj\Debug\NancyScaffolderExtension.dll
+C:\Users\Leonel\Documents\GitHub\NancyScaffolder\NancyScaffolder\NancyScaffolderExtension\obj\Debug\NancyScaffolderExtension.pdb
+C:\Users\Leonel\Documents\GitHub\NancyScaffolder\NancyScaffolder\NancyScaffolderExtension\obj\Debug\extension.vsixmanifest
+C:\Users\Leonel\Documents\GitHub\NancyScaffolder\NancyScaffolder\NancyScaffolderExtension\bin\Debug\Templates\NancyScaffolderCodeGenerator\ModuleTemplate.cs.t4
+C:\Users\Leonel\Documents\GitHub\NancyScaffolder\NancyScaffolder\NancyScaffolderExtension\bin\Debug\Templates\NancyScaffolderCodeGenerator\IndexViewTemplate.cs.t4
+C:\Users\Leonel\Documents\GitHub\NancyScaffolder\NancyScaffolder\NancyScaffolderExtension\bin\Debug\Templates\NancyScaffolderCodeGenerator\CreateViewTemplate.cs.t4
+C:\Users\Leonel\Documents\GitHub\NancyScaffolder\NancyScaffolder\NancyScaffolderExtension\bin\Debug\Templates\NancyScaffolderCodeGenerator\EditViewTemplate.cs.t4
+C:\Users\Leonel\Documents\GitHub\NancyScaffolder\NancyScaffolder\NancyScaffolderExtension\bin\Debug\Templates\NancyScaffolderCodeGenerator\DetailsViewTemplate.cs.t4

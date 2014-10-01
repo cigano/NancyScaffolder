@@ -7,3 +7,8 @@ C:\Users\Leonel\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Cigano M
 C:\Users\Leonel\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Cigano Morrison Mendez\NancyScaffolderExtension\1.0\\Templates\CustomCodeGenerator\ModuleTemplate.cs.t4
 C:\Users\Leonel\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Cigano Morrison Mendez\NancyScaffolderExtension\1.0\\NancyScaffolder.pdb
 C:\Users\Leonel\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Cigano Morrison Mendez\NancyScaffolderExtension\1.0\\Humanizer.dll
+C:\Users\Leonel\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Cigano Morrison Mendez\NancyScaffolderExtension\1.0\\Templates\NancyScaffolderCodeGenerator\ModuleTemplate.cs.t4
+C:\Users\Leonel\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Cigano Morrison Mendez\NancyScaffolderExtension\1.0\\Templates\NancyScaffolderCodeGenerator\IndexViewTemplate.cs.t4
+C:\Users\Leonel\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Cigano Morrison Mendez\NancyScaffolderExtension\1.0\\Templates\NancyScaffolderCodeGenerator\CreateViewTemplate.cs.t4
+C:\Users\Leonel\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Cigano Morrison Mendez\NancyScaffolderExtension\1.0\\Templates\NancyScaffolderCodeGenerator\EditViewTemplate.cs.t4
+C:\Users\Leonel\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Cigano Morrison Mendez\NancyScaffolderExtension\1.0\\Templates\NancyScaffolderCodeGenerator\DetailsViewTemplate.cs.t4

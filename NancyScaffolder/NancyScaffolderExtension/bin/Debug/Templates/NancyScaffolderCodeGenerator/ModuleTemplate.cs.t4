@@ -5,6 +5,7 @@
 <#@ assembly name="System.Data.Entity.Design" #>
 <#@ import namespace="System.Data.Entity.Design.PluralizationServices" #>
 <# var pluralizer = PluralizationService.CreateService(System.Globalization.CultureInfo.CurrentCulture); #>
+<# var modelNameInPlural = pluralizer.Pluralize(ModelType.Name); #>
 
 namespace <#= ModelType.Namespace.Parent #>
 {
@@ -12,9 +13,9 @@ namespace <#= ModelType.Namespace.Parent #>
 
     public class <#= ModelType.Name #>Module : NancyModule
     {
-		public void <#= ModelType.Name #>Module()
+		public <#= ModelType.Name #>Module()
 		{
-			Get["/"] = parameters => View["<#= pluralizer.Pluralize(ModelType.Name) #>/index"];
+			Get["/<#= modelNameInPlural #>"] = parameters => View["<#= modelNameInPlural #>/Index"];
 		}
     }
 }

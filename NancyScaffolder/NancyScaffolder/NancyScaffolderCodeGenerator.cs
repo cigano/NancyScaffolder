@@ -1,19 +1,21 @@
-﻿using NancyScaffolder.UI;
+﻿using System.Data.Entity.Design.PluralizationServices;
+using System.Globalization;
+using NancyScaffolder.UI;
 using Microsoft.AspNet.Scaffolding;
 using System.Collections.Generic;
 
 namespace NancyScaffolder
 {
-    public class CustomCodeGenerator : CodeGenerator
+    public class NancyScaffolderCodeGenerator : CodeGenerator
     {
-        CustomViewModel _viewModel;
+        readonly CustomViewModel _viewModel;
 
         /// <summary>
         /// Constructor for the custom code generator
         /// </summary>
         /// <param name="context">Context of the current code generation operation based on how scaffolder was invoked(such as selected project/folder) </param>
         /// <param name="information">Code generation information that is defined in the factory class.</param>
-        public CustomCodeGenerator(
+        public NancyScaffolderCodeGenerator(
             CodeGenerationContext context,
             CodeGeneratorInformation information)
             : base(context, information)
@@ -30,7 +32,7 @@ namespace NancyScaffolder
         public override bool ShowUIAndValidate()
         {
             // Bring up the selection dialog and allow user to select a model type
-            SelectModelWindow window = new SelectModelWindow(_viewModel);
+            var window = new SelectModelWindow(_viewModel);
             bool? showDialog = window.ShowDialog();
             return showDialog ?? false;
         }
@@ -41,6 +43,8 @@ namespace NancyScaffolder
         /// </summary>
         public override void GenerateCode()
         {
+            PluralizationService ps = PluralizationService.CreateService(CultureInfo.GetCultureInfo("en-us"));
+
             // Get the selected code type
             var codeType = _viewModel.SelectedModelType.CodeType;
 
@@ -59,13 +63,37 @@ namespace NancyScaffolder
             };
 
             // Add the custom scaffolding item from T4 template.
-            this.AddFileFromTemplate(Context.ActiveProject,
-                "Modules\\" + _viewModel.SelectedModelType.ShortTypeName + "Module",
+            AddFileFromTemplate(Context.ActiveProject,
+                "Modules\\" + ps.Pluralize(_viewModel.SelectedModelType.ShortTypeName) + "Module",
                 "ModuleTemplate",
                 parameters,
                 skipIfExists: false);
+
+            AddFolder(Context.ActiveProject, "Views\\" + ps.Pluralize(_viewModel.SelectedModelType.ShortTypeName));
+
+            AddFileFromTemplate(Context.ActiveProject,
+                "Views\\" + ps.Pluralize(_viewModel.SelectedModelType.ShortTypeName) + "\\Index",
+                "IndexViewTemplate",
+                parameters,
+                skipIfExists: false);
+
+            AddFileFromTemplate(Context.ActiveProject,
+                "Views\\" + ps.Pluralize(_viewModel.SelectedModelType.ShortTypeName) + "\\Create",
+                "CreateViewTemplate",
+                parameters,
+                skipIfExists: false);
+
+            AddFileFromTemplate(Context.ActiveProject,
+                "Views\\" + ps.Pluralize(_viewModel.SelectedModelType.ShortTypeName) + "\\Edit",
+                "EditViewTemplate",
+                parameters,
+                skipIfExists: false);
+
+            AddFileFromTemplate(Context.ActiveProject,
+                "Views\\" + ps.Pluralize(_viewModel.SelectedModelType.ShortTypeName) + "\\Details",
+                "DetailsViewTemplate",
+                parameters,
+                skipIfExists: false);
         }
-
-
     }
 }

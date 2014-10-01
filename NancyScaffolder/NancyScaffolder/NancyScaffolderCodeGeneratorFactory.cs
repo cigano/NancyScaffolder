@@ -10,23 +10,23 @@ using System.Windows.Media.Imaging;
 namespace NancyScaffolder
 {
     [Export(typeof(CodeGeneratorFactory))]
-    public class CustomCodeGeneratorFactory : CodeGeneratorFactory
+    public class NancyScaffolderCodeGeneratorFactory : CodeGeneratorFactory
     {
         /// <summary>
         ///  Information about the code generator goes here.
         /// </summary>
-        private static CodeGeneratorInformation _info = new CodeGeneratorInformation(
+        private static readonly CodeGeneratorInformation _info = new CodeGeneratorInformation(
             displayName: "Nancy Scaffolder",
             description: "Scaffolder for NancyFx based projects.",
             author: "Cigano Morrison Mendez",
             version: new Version(1, 0, 0, 0),
-            id: typeof(CustomCodeGenerator).Name,
+            id: typeof(NancyScaffolderCodeGenerator).Name,
             icon: ToImageSource(Resources._TemplateIconSample),
             // gestures: new[] { "Controller", "View", "Area" },
             gestures: new[] { "Modules", "View", "Area" },
             categories: new[] { Categories.Common, Categories.MvcController, Categories.Other });
 
-        public CustomCodeGeneratorFactory()
+        public NancyScaffolderCodeGeneratorFactory()
             : base(_info)
         {
         }
@@ -37,7 +37,7 @@ namespace NancyScaffolder
         /// <returns>Instance of CodeGenerator.</returns>
         public override ICodeGenerator CreateInstance(CodeGenerationContext context)
         {
-            return new CustomCodeGenerator(context, Information);
+            return new NancyScaffolderCodeGenerator(context, Information);
         }
 
         /// <summary>
